@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+
+
+
+.header{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.navbar__collection{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+.navbar__link{
+    text-decoration: none;
+    color: #9093A6;
+}
+
+
+
+.hero{
+    display: flex;
+    margin-top: 25px;
+}
+.hero__text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 88px;
+}
+.hero__title{
+    font-size: 60px;
+    font-weight: 300;
+}
+.hero__btns{
+    display: flex;
+    gap: 24px;
+}
+.hero__btn{
+    padding: 26px 24px;
+    background: transparent;
+    border: 2px solid #FFE145;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.hero__btn:hover {
+    background-color: darkorange;
+    color: #000;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.navbar__link:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+.hero__image{
+    width: 50%;
+}
+.hero__image img{
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box__btn:hover {
+    background-color: gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.box h2 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #000;
+}
+
+
+.box button {
+    display: flex;
+    font-size: 16px;
+    width: 118px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: none;
+    background-color: #F2F4FA;
+}
+
+.box button:hover {
+    background-color: #FFE145;
+    color: crimson;
+    cursor: pointer;
+}
+
+.card {
+    width: 296px;
+    box-shadow: 0 0 10px #0002;
+}
+.card img {
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.card__image{
+    height: 184px;
+    object-fit: cover;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+
+.logo {
+    background-color: #F2F4FA;
+    height: 250px;
+}
+
+.big {
+    display: flex;
+    margin-left: 800px;
+    gap: 5px;
+}
+
+.big input {
+    width: 336px;
+    height: 72px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.big button {
+    width: 88px;
+    height: 72px;
+    background-color: #FFE145;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.title {
+    padding: 30px;
+}
+
+.title h2 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.title__p {
+    font-size: 16px;
+}
+
+.fast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fast h2 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.fast button {
+    font-size: 16px;
+    font-weight: 700;
+    width: 118px;
+    height: 48px;
+    background-color: #F2F4FA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.ract {
+    margin-top: 50px;
+}
+
+.gold {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.gold__img {
+    height: 136px;
+    box-shadow: 0 0  10px #0002;
+    border-radius: 6px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.gold__img img {
+    width: 48px;
+    height: 48px;
+    margin-top: 30px;
+}
+
+.second img{
+    margin-top: 50px;
+    width: 100%;
+    height: 284px;
+}
+
+.map {
+    width: 100%;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.icon {
+    margin-top: 50px;
+}
+
+.wrapper__one {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.icon__title h2 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.spn {
+    color: grey;
+}
+
+.foot {
+    width: 100%;
+    height: 437px;
+    background-color: #3F4255;
+    margin-top: 50px;
+}
+
+.footer__first {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.footer__first h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer__first p {
+    font-size: 16px;
+    color: #D4D7E5;
+    font-weight: 700;
+}
+
+
+hr {
+    width: 300px;
+    margin-top: 72px;
+}
+
+.two {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.foot__one p {
+    margin-top: 14px;
+}
+
+.fish {
+    padding: 50px;
+}
+
+.fish__one {
+    display: flex;
+    gap: 24px;
+}
+
+.fish__one p {
+    color: #fff;
+}
+
+.fish__two {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 550px;
+    gap: 50px;
+}
